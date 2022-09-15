@@ -6,14 +6,14 @@ var artBox = document.getElementById('other');
 myBox.onclick = function() {
     myBox.style.backgroundImage = "url('./res/sound.gif')";
     myBox.style.backgroundSize = "500px";
-    myBox.style.backgroundBlendMode = "normal";
-    myBox.innerHTML = '';
+    // myBox.style.backgroundBlendMode = "normal";
+    myBox.style.color = 'lightblue';
+    // myBox.innerHTML = '';
     setTimeout(() => {  
         location.href = "https://www.pinterest.it/pin/753297475157238074/"; 
         myBox.style.backgroundImage = "url('./res/pfp.webp')";
         myBox.style.backgroundSize = "auto 400px";
         myBox.style.backgroundBlendMode = "darken";
-        myBox.innerHTML = '<p class="description">Vive ut ViVAs ViVi</br>- Who Am i -</p>';
     }, 2000);
 }
 

@@ -3,9 +3,10 @@
 
 /* TUTTO */
 .container-fluid { 
-    background-image: url(./res/back.gif);
-    background-blend-mode: darken;
-    background-position: 0px -150px;
+    /* background-image: url(./.gif); */
+    /* background-blend-mode: darken;
+    background-position: 0px -150px; */
+    background-color: black;
     font-family: 'Major Mono Display', monospace;
     color: white;
 
@@ -100,19 +101,19 @@ body {
 
 /* CONTENUTO */
 .box { 
-    height: 200px;
+    height: 120px;
     background-blend-mode: darken;
     border: 1px gray solid;
-    box-shadow: 24px 24px 24px 0 rgb(0, 0, 0);
+
     /* margin: 10px; */
-    /* transition: 1s; */
+    transition: 1s;
 }
 
 .box:hover { 
     box-shadow:
-    0 0 2px 2px #fff,  /* inner white */
-    0 0 3px 3px #f0f, /* middle magenta */
-    0 0 4px 4px #0ff; /* outer cyan */
+    0 0 1px 2px #fff,  /* inner white */
+    0 0 13px 2px rgb(145, 0, 0), /* middle magenta */
+    0 0 23px 10px rgb(68, 0, 255); /* outer cyan */
 }
 
 .description {
